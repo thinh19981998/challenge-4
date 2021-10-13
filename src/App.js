@@ -85,7 +85,7 @@ function App({ data }) {
     <div className='container'>
       <h1>#todo</h1>
       <div className='btn-group'>{filterList}</div>
-      <Form addTask={addTask} />
+      {filter !== 'Completed' && <Form addTask={addTask} />}
       <ul className='todo-list'>{taskList}</ul>
       {show && (
         <button className='deleteAll-btn' onClick={deleteAll}>
