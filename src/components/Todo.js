@@ -27,8 +27,8 @@ function Todo({
       </div>
       {filter === 'Completed' && (
         <button className='remove-btn' onClick={() => deleteTask(id)}>
-        <span class="material-icons">delete_outline</span>
-//           <span className='material-icons'>&#xE872;</span>
+          <span class='material-icons'>delete_outline</span>
+          {/* <span className='material-icons'>&#xE872;</span> */}
         </button>
       )}
     </li>
