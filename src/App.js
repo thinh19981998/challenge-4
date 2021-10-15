@@ -89,7 +89,7 @@ function App({ data }) {
       <ul className='todo-list'>{taskList}</ul>
       {show && (
         <button className='deleteAll-btn' onClick={deleteAll}>
-          <span class='list-delete-text'>delete all</span>
+          <span class='material-icons'>delete_outline</span>
           Delete All
         </button>
       )}
