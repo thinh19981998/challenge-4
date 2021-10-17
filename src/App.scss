@@ -18,6 +18,10 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   position: relative;
+
+  @media screen and (max-width: 1200px) {
+    width: 70vw;
+  }
 }
 
 .btn-group {
@@ -25,6 +29,10 @@ h1 {
   border-bottom: 1px solid #bdbdbd;
   display: flex;
   justify-content: space-evenly;
+
+  @media screen and (max-width: 600px) {
+    margin-top: 10px;
+  }
 }
 
 .toggle-btn {
@@ -69,6 +77,10 @@ h1 {
     border: 1px solid #bdbdbd;
     box-sizing: border-box;
     border-radius: 12px;
+
+    @media screen and (max-width: 600px) {
+      width: 100%;
+    }
   }
 
   .add-btn {
@@ -84,6 +96,15 @@ h1 {
     line-height: 17px;
 
     color: #ffffff;
+
+    @media screen and (max-width: 600px) {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
   }
 }
 
